@@ -18,9 +18,9 @@ From https://cp3.irmp.ucl.ac.be/projects/delphes :
  
  Contents:
  
- FileLists - list of Delphes created simulation ROOT files to analyze
+ FileLists/ - list of Delphes created simulation ROOT files to analyze
  
- condor - shell scripts, templates, and setup files to submit batch jobs
+ condor/ - shell scripts, templates, and setup files to submit batch jobs
  
  
  interface/BrownDelphesSelector.h - C++ "event" class definition for working with event properties
@@ -38,6 +38,8 @@ From https://cp3.irmp.ucl.ac.be/projects/delphes :
  src/PlotExample.C - Plotting Macro
  
  src/SelectorExample.C - Wrapper script to run the analysis
+ 
+ plots/ - Histograms of kinematic variables, colored by sample
 
  =======================
  
